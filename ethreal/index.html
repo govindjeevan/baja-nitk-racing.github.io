@@ -35,6 +35,18 @@
 								</div>
 							</section>
 
+						<!-- Panel Rotate -->
+						<section class="panel spotlight medium right" id="first">
+							<div style="z-index: 100;" id="myCar"></div>
+
+							<div class="image filtered tinted" data-position="top left">
+								
+																
+								
+							</div>
+						</section>
+
+
 						<!-- Panel (Spotlight) -->
 							<section class="panel spotlight medium right" id="first">
 								<div class="content span-7">
@@ -414,6 +426,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" src="assets/js/3deye.min.js"></script>
+			<script>
+			$(document).ready(function(){
+				$("#myCar").vc3dEye({
+				imagePath:"images/rotate/",
+				totalImages:24,
+				imageExtension:"png"
+			});
+			}
+			)
+
+
+			
+			</script>
 
 	</body>
 </html>
