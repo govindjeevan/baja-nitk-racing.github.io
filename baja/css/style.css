@@ -81,7 +81,7 @@ hr.line { margin: 15px auto; padding: 0; max-width: 70px;border: 0; border-top: 
 /* --Page-- */
 body.index-page {}
 body.sub-page{}
-body.sub-page header .main-header{height: 100vh;background: url(../images/team.JPG) center center;}
+ body.sub-page header .main-header{height: 30vh;background: url(../images/car/bg1.png) center center;} 
 
 body .wrap-body{position: relative;}
 body .wrap-body #page-top{position: fixed;right: 40px;bottom: 40px;z-index: 999;}
@@ -132,7 +132,7 @@ body.sub-page .header-text{padding-left: 10%;margin-top: 12vh;}
 #menu .dropdown-inner ul {display: table-cell;}
 #menu .dropdown-inner a {min-width: 160px;display: block;padding: 3px 20px;clear: both;line-height: 20px;color: #000;margin: 0 5px;}
 #menu li.dropdown:hover>a, #menu li.dropdown:focus>a, #menu li.dropdown:active>a{color: #42AB9E;background: none;}
-.navbar{margin: 0;}
+.navbar{margin: 0;position:fixed; overflow: hidden; width:100%; z-index: 999; top:0}
 #menu ul.nav li{padding-right: 16px;}
 #menu ul.nav li a{padding: 8px 10px;color: #333;font-size: 14px;font-weight: bold;position:relative;}
 #menu ul.nav li.active a:after{position: absolute;content: "";background: #333;bottom: 0;left: 50%;height: 3px; width: 20px;transform: translateX(-50%);}
@@ -171,7 +171,9 @@ body.sub-page .header-text{padding-left: 10%;margin-top: 12vh;}
 
 .box-content.box-style-2{background: #ECECEC;}
 .box-content.box-style-3{background: url(../images/beach.png) fixed; background-size: contain}
-.box-content.box-style-4{background: url(../images/bg4.jpg) center center;}
+.box-content.box-style-10{background: url(../images/tech.jpg) fixed; background-size: contain}
+
+.box-content.box-style-4{background: url(../images/car/1.jpg) center center;}
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 1---------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -208,6 +210,15 @@ body.sub-page .header-text{padding-left: 10%;margin-top: 12vh;}
 .box-content.box-3 .box-item{margin-bottom: 30px;}
 .box-content.box-3 .box-item h3{font-size: 19px;}
 .box-content.box-3 .box-item img.icon{margin:auto}
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Box 10---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-content.box-10 {text-align: center}
+.box-content.box-10 .box-item{margin-bottom: 30px;}
+.box-content.box-10 .box-item h3{font-size: 19px;}
+.box-content.box-10 .box-item img.icon{margin:auto}
+
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 4---------------------------------- */
