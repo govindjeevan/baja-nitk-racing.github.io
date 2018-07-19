@@ -172,6 +172,10 @@ body.sub-page .header-text{padding-left: 10%;margin-top: 12vh;}
 .box-content.box-style-2{background: #ECECEC;}
 .box-content.box-style-3{background: url(../images/beach.png) fixed; background-size: contain}
 .box-content.box-style-10{background: url(../images/tech.jpg) fixed; background-size: contain}
+.box-content.box-style-11{background: url(../images/inci.jpg) fixed; background-size: contain}
+.box-content.box-style-12{background: url(../images/sticker.jpg) fixed; background-size: contain}
+
+
 
 .box-content.box-style-4{background: url(../images/car/1.jpg) center center;}
 /* ---------------------------------------------------------------------------- */
@@ -392,3 +396,4 @@ a.btn:focus{outline: 0;}
 .btn-skin:hover, .btn-skin:focus {color: #fff;background-color: #173E43;}
 .btn-toTop{height: 42px;width: 42px;padding: 7px 0 0;border: 2px solid #42AB9E;margin: 0;color: #42AB9E;}
 .btn-toTop:hover{background: #42AB9E;color: #fff;}
+
