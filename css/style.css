@@ -170,10 +170,10 @@ body.sub-page .header-text{padding-left: 10%;margin-top: 12vh;}
 .box-content .heading .intro{max-width: 300px;margin: auto}
 
 .box-content.box-style-2{background: #ECECEC;}
-.box-content.box-style-3{background: url(../images/beach.png) fixed; background-size: contain}
-.box-content.box-style-10{background: url(../images/tech.jpg) fixed; background-size: contain}
-.box-content.box-style-11{background: url(../images/inci.jpg) fixed; background-size: contain}
-.box-content.box-style-12{background: url(../images/sticker.jpg) fixed; background-size: contain}
+.box-content.box-style-3{background: url(../images/beach.png) fixed; background-size: cover}
+.box-content.box-style-10{background: url(../images/tech.jpg) fixed; background-size: cover}
+.box-content.box-style-11{background: url(../images/inci.jpg) fixed; background-size: cover}
+.box-content.box-style-12{background: url(../images/sticker.jpg) fixed; background-size: cover}
 
 
 
