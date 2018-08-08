@@ -145,13 +145,14 @@ body.sub-page .header-text{padding-left: 10%;margin-top: 12vh;}
 @media  (min-width: 768px) {
     #menu ul.nav {float:right; margin-top: 5px;}
 	#menu .dropdown:hover .dropdown-menu {display: block;}
-	
 }
 @media(max-width:767px) {
 	
-	#menu{background: #1D2027;padding: 10px 0;}
+	#menu{background: #1D2027;padding: 10px 0; color: white;}
 	#menu .navbar-brand {display: block;color: #fff;margin-top: 10px;}
-	#menu div.dropdown-inner > ul.list-unstyled {display: block;}
+	#menu .navbar-brand h2{color: #fff;font-size: 2.5vh}
+    
+    #menu div.dropdown-inner > ul.list-unstyled {display: block;}
 	#menu .dropdown-inner a {width: 100%;color: #fff;}
 	#menu div.dropdown-menu {margin-left: 0 !important;	padding-bottom: 10px;background-color: rgba(0, 0, 0, 0.1);}
 	#menu ul.nav li a{color: #fff;}
