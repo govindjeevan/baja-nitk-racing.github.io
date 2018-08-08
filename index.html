@@ -42,7 +42,20 @@
         <script src="js/respond.min.js"></script>
 	<![endif]-->
 	
+	<style>
+		@media(max-width:1023px){
+		.hide-0-to-1024{
+		display:none;
+		}
+	}
 
+	@media (min-width: 1024px) {
+		.hide-1024-up {
+		display: none;
+		}
+	}
+
+	</style>
 
 	<script src="https://scripts.sirv.com/sirv.js"></script>
 </head>
@@ -73,10 +86,10 @@
 				</div>
 			</nav>
 			<div style="margin: 0 2vw 0 2vw; width:auto; height: 85vh;  background-image: url('images/header.jpg');background-size: contain;">
-				<h1 style="position: absolute; padding: 1vh; padding-left: 2vw; font-size:23vw; -webkit-user-select: none;  /* Chrome all / Safari all */
+				<h1 style=" position: absolute; padding: 1vh; padding-left: 2vw; font-size:23vw; -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
-  user-select: none;">BNR XII</h1>
+  user-select: none;" class="hide-0-to-1024">BNR XII</h1>
 <div class="Sirv" data-src="https://bajanitkracing.sirv.com/Spins/Car/Car.spin"></div>
 			</div>
 			
