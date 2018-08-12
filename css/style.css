@@ -398,3 +398,50 @@ a.btn:focus{outline: 0;}
 .btn-toTop{height: 42px;width: 42px;padding: 7px 0 0;border: 2px solid #42AB9E;margin: 0;color: #42AB9E;}
 .btn-toTop:hover{background: #42AB9E;color: #fff;}
 
+
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+  }  
+  #boxes .window {
+    position:absolute;
+    left:0;
+    top:0;
+    width:440px;
+    height:200px;
+    display:none;
+    z-index:9999;
+    padding:20px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  #boxes #dialog {
+    width:480px; 
+    height:auto;
+    padding:30px;
+    background-color:#ffffff;
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 15pt;
+  }
+  .maintext{
+    text-decoration: none;
+  }
+  #lorem{
+      font-size: 12pt;
+    text-align: left;
+  }
+  #popupfoot{
+      font-size: 16pt;
+    padding: 10px 20px;
+  }
+  #popupfoot a{
+      text-decoration: none;
+  }
+  .popupoption2:hover{
+      
+      color: red;
+  }
