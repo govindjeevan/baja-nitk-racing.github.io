@@ -420,13 +420,21 @@ a.btn:focus{outline: 0;}
     text-align: center;
   }
   #boxes #dialog {
-    width:440px; 
+    width:30vw; 
     height:auto;
     padding:30px;
     background-color:#ffffff;
     font-family: 'Segoe UI Light', sans-serif;
     font-size: 15pt;
   }
+
+  @media(max-width:1023px){
+    #boxes #dialog {
+        width:80vw; 
+      }
+}
+
+
   .maintext{
     text-decoration: none;
   }
