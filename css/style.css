@@ -81,7 +81,7 @@ hr.line { margin: 15px auto; padding: 0; max-width: 70px;border: 0; border-top: 
 /* --Page-- */
 body.index-page {}
 body.sub-page{}
- body.sub-page header .main-header{height: 30vh;background: url(../images/car/bg1.png) center center;} 
+ body.sub-page header .main-header{height: 30vh;background: url(../images/car/bg1.jpg) center center;} 
 
 body .wrap-body{position: relative;}
 body .wrap-body #page-top{position: fixed;right: 40px;bottom: 40px;z-index: 999;}
